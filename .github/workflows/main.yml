@@ -2,7 +2,7 @@ name: River Plate Ticket Checker
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # Cada 12 horas (a la hora 0 y 12 UTC)
+    - cron: "0 20 * * *" # A las 20:00 del día
   workflow_dispatch: # Permite correrlo manualmente desde GitHub
   push:
     branches:
@@ -38,7 +38,5 @@ jobs:
       - name: Auto-commit si hubo cambios
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: update last match
-          commit_user_name: GitHub Action
-          commit_user_email: action@github.com
+          commit_message: "📌 chore: updated last_match.txt"
           file_pattern: last_match.txt

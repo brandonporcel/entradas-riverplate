@@ -1,5 +1,7 @@
 # Entradas River Plate ⚪🔴⚪
 
+![entradas-riverplate Cover](src/og.png)
+
 Este script monitorea automáticamente nuevas publicaciones de entradas para partidos de River Plate y envía alertas por correo electrónico.
 
 ## 🧠 ¿Cómo funciona?
@@ -19,3 +21,14 @@ pip install -r requirements.txt
 ```
 python src/main.py
 ```
+
+## ⚙️ Automatización
+
+Este script puede ejecutarse automáticamente con GitHub Actions, lo que permite que corra todos los días a una hora determinada.
+
+## 💬 Feedback
+
+Me coparía saber tu opinión. Mandame un mensaje por acá!
+
+- 📧 [Email](mailto:brandon7.7porcel@gmail.com)
+- 🌐 [LinkedIn](https://linkedin.com/in/brandonporcel)
