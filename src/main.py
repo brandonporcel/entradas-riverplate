@@ -49,7 +49,7 @@ def send_email(title):
 
 Este mensaje fue generado automáticamente por el bot de River Plate.
         """)
-        msg['Subject'] = '🎉 Nuevo partido disponible en la web de River'
+        msg['Subject'] = '🎉 Salieron a la venta entradas para River 🐔'
         msg['From'] = EMAIL_USER
         msg['To'] = TO_EMAIL
 
