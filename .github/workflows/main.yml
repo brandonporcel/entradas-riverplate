@@ -2,7 +2,7 @@ name: River Plate Ticket Checker
 
 on:
   schedule:
-    - cron: "0 20 * * *" # A las 20:00 del día
+    - cron: "0 16 * * *" # A las 16:00
   workflow_dispatch: # Permite correrlo manualmente desde GitHub
   push:
     branches:

@@ -45,10 +45,9 @@ def send_email(title):
 🎟️ Se detectó un nuevo partido con entradas disponibles.
 
 📌 {title['title']}
-🔗 {title['url']}
+🔗 {title['url']} - {URL}
 
-Este mensaje fue generado automáticamente por el bot de River Plate.
-        """)
+""")
         msg['Subject'] = '🎉 Salieron a la venta entradas para River 🐔'
         msg['From'] = EMAIL_USER
         msg['To'] = TO_EMAIL

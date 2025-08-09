@@ -2,7 +2,8 @@
 
 ![entradas-riverplate Cover](src/og.png)
 
-Este script monitorea automáticamente nuevas publicaciones de entradas para partidos de River Plate y envía alertas por correo electrónico.
+Este script monitorea automáticamente nuevas publicaciones de entradas para partidos de River Plate y envía alertas por correo electrónico.<br/>
+<img src="https://www.riverid.com.ar/static/escudos/logo-river.svg" alt="River Plate badge" width="24"/>
 
 ## 🧠 ¿Cómo funciona?
 
