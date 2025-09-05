@@ -27,6 +27,11 @@ python src/main.py
 
 Este script puede ejecutarse automáticamente con GitHub Actions, lo que permite que corra todos los días a una hora determinada.
 
+## ⚙️ To-Do
+- [ ] Hacer ui para guardar mails y desuscripción
+  - [ ] Usar servicio de mailing y desuscripción desde gmail? 🤔
+
+
 ## 💬 Feedback
 
 Me coparía saber tu opinión. Mandame un mensaje por acá!
